@@ -7,3 +7,8 @@ print(' and this is on the same line')
 and get:
 
 this is a string and this is on the same line
+or
+
+print("Here I am"),
+
+
