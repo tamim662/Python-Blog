@@ -1,0 +1,17 @@
+string_name.capitalize() 
+
+string_name: It is the name of string of
+             whose first character we want
+             to capitalize.
+
+
+
+
+
+name = "python practice"
+  
+print(name.capitalize()) 
+
+
+
+>>>Python Practice
