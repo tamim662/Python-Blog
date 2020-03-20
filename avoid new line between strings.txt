@@ -1,0 +1,9 @@
+there is no newline or blank space between the two strings.
+
+In Python 3.x, with its print() function, you can just say
+
+print('this is a string', end="")
+print(' and this is on the same line')
+and get:
+
+this is a string and this is on the same line
