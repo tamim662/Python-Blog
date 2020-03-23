@@ -1,0 +1,17 @@
+Function dir:
+Python has a set of built-in functions. To see the list of built-in functions, run dir(__builtins__) :
+
+
+>>> dir(__builtins__)
+
+
+
+Function help:
+To get information about a particular function, call help and pass the function as the argument.
+  For example:
+    >>>help(abs)
+    
+    >>> help(pow)
+    
+
+
