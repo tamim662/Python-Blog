@@ -9,4 +9,6 @@ For example taking integer value:
  
 # Or taking multiple inputs at a time and type casting using list() function :
 
+input().split(separator, maxsplit)
+
 x = list(map(int, input("Enter a multiple value: ").split())) 
