@@ -1,0 +1,20 @@
+
+from collections import Counter
+l = [1,2,3,3,4,1,2,3,3,2,6,7,8,9]
+my_dict=Counter(l)
+print(my_dict)
+>>>Counter({3: 4, 2: 3, 1: 2, 4: 1, 6: 1, 7: 1, 8: 1, 9: 1})
+
+Keymax = max(my_dict, key=my_dict.get) 
+print(Keymax)
+>>>3 # As 3 occurs 4 times
+
+Diffrent example:
+l = [4978, 11735, 14216, 14470, 38120, 51135, 64630, 67060, 73429, 99233]
+my_dict=Counter(l)
+print(my_dict)
+>>>Counter({4978: 1, 11735: 1, 14216: 1, 14470: 1, 38120: 1, 51135: 1, 64630: 1, 67060: 1, 73429: 1, 99233: 1})
+
+Keymax = max(my_dict, key=my_dict.get) 
+print(Keymax)
+>>>4978  # As every key element occures 1 time so ite return the value of first one
