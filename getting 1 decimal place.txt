@@ -1,0 +1,5 @@
+
+round(number,1)  #builtin
+
+>>>round(23.132323,1)
+>>> 23.1
