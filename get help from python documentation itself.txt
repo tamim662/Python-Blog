@@ -15,3 +15,10 @@ To get information about a particular function, call help and pass the function 
     
 
 
+''' to get know fucnction of string use 
+>>> dir(str)
+and get knowledge via this command of individual operations
+>>>help(str.put you function)
+    
+
+
