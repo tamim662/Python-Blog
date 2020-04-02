@@ -18,5 +18,5 @@ str1.count(str2)
 
 ''' to get know more fucnction of string use 
 >>> dir(str)
-and get knowledge via this command
+and get knowledge via this command of idividual
 >>>help(str.put you function)
