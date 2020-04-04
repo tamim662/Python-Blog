@@ -1,0 +1,14 @@
+from collections import Counter
+
+>>>l=[1,2,3,5,7,8,6,7,5,8,5,4,8,2]
+>>>largest=max(l)  #find out maximum value in the list
+>>> largest
+8
+
+>>> dict=Counter(l)  # Count the occurrence times of each element in the list
+>>> dict
+Counter({5: 3, 8: 3, 2: 2, 7: 2, 1: 1, 3: 1, 6: 1, 4: 1}) # See the output shown in dictionary fromat
+
+>>> dict[largest]  #It will show the occurrence time of specific element
+3     # 8 is the max value occurrs 3 times
+
