@@ -1,0 +1,7 @@
+array = []
+for i in range(limit):
+     if item[1] == 'House':
+       price = float(item[2])
+       array.append(price)
+
+print(array)
