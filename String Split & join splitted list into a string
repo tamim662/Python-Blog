@@ -1,9 +1,11 @@
->>> s="This is a string"
+>>> s= "This is a string"
 >>> s
 'This is a string'
+
 >>> list=s.split(" ")
 >>> list
 ['This', 'is', 'a', 'string']
+
 >>> string="-".join(list) 
 >>> string
 'This-is-a-string'
